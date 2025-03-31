@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Page 1: Contact Form</title>
+  <style>
+ 
+    body {
+      background-color: #F8D9B1;
+      font-family: Arial, sans-serif;
+    }
+ 
+    .form-container {
+      margin: 20px;
+    }
+
+    .form-container label {
+      font-size: 1.2em;
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .form-container input[type="text"] {
+      padding: 5px;
+      margin-bottom: 10px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      background-color: #008CBA;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #005F73; 
+    }
+  </style>
+</head>
+<body>
+  <h1>Contact Me</h1>
+  <div class="form-container">
+    <form action="Lab2pt2.html" method="GET">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>
